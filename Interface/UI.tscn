@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Interface/Counters/NoteDisplay.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Interface/Counters/HertzDisplay.tscn" type="PackedScene" id=2]
+
+[node name="UI" type="Control"]
+anchor_left = 0.000821173
+anchor_right = 1.00082
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="NoteDisplay" parent="." instance=ExtResource( 1 )]
+anchor_left = 0.0357879
+anchor_top = 0.0428353
+anchor_right = 0.266257
+anchor_bottom = 0.177835
+margin_top = 1.90735e-06
+margin_right = 3.05176e-05
+margin_bottom = 5.06499
+
+[node name="HertzDisplay" parent="." instance=ExtResource( 2 )]
+anchor_left = 0.0370292
+anchor_top = 0.203186
+anchor_right = 0.267498
+anchor_bottom = 0.338186
+margin_right = 0.0
+margin_bottom = 0.0
